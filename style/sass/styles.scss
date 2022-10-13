@@ -1,1 +1,14 @@
-@use "setup";
+@use "./partials/setup";
+@use "./partials/header";
+@use "./partials/main";
+
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 80vw;
+    margin: 0 auto;
+}

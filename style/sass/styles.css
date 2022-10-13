@@ -219,4 +219,166 @@ html {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+header {
+  background-image: url(../../animal-land-assets/image-1.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.topNav ul {
+  display: flex;
+}
+.topNav ul li {
+  list-style: none;
+  margin-right: 2.4rem;
+  margin-top: 1.5rem;
+}
+.topNav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+h1 {
+  color: white;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 5.5rem;
+  line-height: 80px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-align: right;
+}
+
+.sideNav ul {
+  display: flex;
+}
+.sideNav ul li {
+  list-style: none;
+}
+.sideNav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.story {
+  background-color: #152d20;
+  height: 45vh;
+}
+.story .wrapper {
+  display: flex;
+  height: inherit;
+}
+.story .wrapper .suzieText {
+  margin-top: 2rem;
+}
+.story .wrapper .suzieText p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 0.8rem;
+  line-height: 18px;
+}
+.story .wrapper .suzieText h2 {
+  font-family: "Fredericka the Great", cursive;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+.story .wrapper .suzieText .readMore {
+  height: 30px;
+  width: 100px;
+  background-color: white;
+  padding: 5px;
+  text-align: center;
+}
+.story .wrapper .suzieText .readMore a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+.suziePic {
+  display: flex;
+  align-items: center;
+  margin-right: 1.8rem;
+}
+.suziePic img {
+  height: 200px;
+  width: 200px;
+}
+
+.friends {
+  height: 46vw;
+  padding-top: 40px;
+  background-color: #c3d3cb;
+}
+.friends .wrapper h2 {
+  font-family: "Fredericka the Great", cursive;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: #152d20;
+  text-align: center;
+}
+.friends .wrapper ul {
+  display: flex;
+  justify-content: space-between;
+}
+.friends .wrapper ul li {
+  list-style: none;
+}
+.friends .wrapper ul li img {
+  height: 250px;
+  width: 250px;
+}
+
+.midNav {
+  height: 25vh;
+  background-color: #152d20;
+}
+.midNav nav ul {
+  display: flex;
+}
+.midNav nav ul li {
+  list-style: none;
+  color: white;
+}
+.midNav nav ul li i {
+  color: white;
+}
+
+.facts {
+  display: flex;
+}
+.facts .factsText {
+  background-color: #000000;
+}
+.facts .factsText h3 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 1.6rem;
+  color: #152d20;
+  font-weight: lighter;
+}
+
+.factsImage img {
+  width: 50vw;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 80vw;
+  margin: 0 auto;
 }/*# sourceMappingURL=styles.css.map */

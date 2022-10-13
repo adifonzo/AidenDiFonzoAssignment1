@@ -1,0 +1,135 @@
+
+.story {
+    background-color: #152d20;
+    height: 45vh;
+    .wrapper {
+        display: flex;
+        height: inherit;
+        .suzieText {
+            margin-top: 2rem;
+
+            p {
+                color: white;
+                font-family: 'Roboto', sans-serif;
+                font-weight: lighter;
+                font-size: 0.8rem;
+                line-height: 18px
+            }
+
+            h2 {
+                font-family: 'Fredericka the Great', cursive;
+                text-transform: uppercase;
+                font-weight: lighter;
+                font-size: 2rem;
+                color: white;
+                margin-bottom: 1rem; 
+            }
+
+            .readMore {
+                height: 30px;
+                width: 100px;
+                background-color: white;
+                padding: 5px;
+                text-align: center;
+                
+
+                a {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: black;
+                    font-family: 'Cormorant Garamond', serif;
+                    font-size: 0.8rem;
+                    font-weight: lighter;
+                }
+
+            }
+        }
+    }
+}
+
+.suziePic {
+    display: flex;
+    align-items: center;
+    margin-right: 1.8rem;
+
+    img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+.friends {
+    height: 46vw;
+    padding-top: 40px;
+    background-color: #c3d3cb;
+
+    .wrapper {
+        
+        h2 {
+            font-family: 'Fredericka the Great', cursive;
+            text-transform: uppercase;
+            font-weight: lighter;
+            font-size: 2rem;
+            color: #152d20;
+            text-align: center;
+
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                list-style: none;
+                img {
+                    height: 250px;
+                    width: 250px;
+                }
+            }
+        }
+    }
+}
+
+.midNav {
+    height: 25vh;
+    background-color: #152d20;
+
+    nav {
+        ul {
+            display: flex;
+            li {
+                list-style: none;
+                color: white;
+
+                i {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+
+
+.facts {
+    display: flex;
+    .factsText {
+        background-color: #000000;
+        
+        h3 {
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 1.6rem;
+        color: #152d20;
+        font-weight: lighter;
+    }
+    }
+
+   
+}
+
+
+.factsImage {
+    img {
+        width: 50vw;
+    }
+}

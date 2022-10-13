@@ -4,21 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Fredericka+the+Great&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/sass/styles.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <nav class="topNav">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav> <!-- topNav ends -->
+        <div class="wrapper">
+            <nav class="topNav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav> <!-- topNav ends -->
 
-        <h1>Animal <br> Refuge</h1>
-
+            <h1>Animal <br> Refuge</h1>
+        </div> <!-- wrapper Ends -->
+        
         <nav class="sideNav">
             <ul>
                 <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
@@ -31,23 +37,26 @@
 
     <body>
         <section class="story">
-            <div class="suziePic">
-                <img src="./animal-land-assets/image-6.jpg" alt="Cat laying on a red couch staring into the camera">
-            </div> <!-- suziePic Ends --> 
+            <div class="wrapper">
+                <div class="suziePic">
+                    <img src="./animal-land-assets/image-6.jpg" alt="Cat laying on a red couch staring into the camera">
+                </div> <!-- suziePic Ends --> 
 
-            <div class="suzieText">
-                <h2>Suzie's Story</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus nulla pulvinar tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus nulla pulvinar tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla el. Lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla</p>
+                <div class="suzieText">
+                    <h2>Suzie's Story</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus nulla pulvinar tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus nulla pulvinar tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla el. Lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla</p>
 
-                <div class="readMore">
-                    <a href="#">Read More</a>
-                </div> <!-- readMore Ends-->
-            </div> <!-- suzieText Ends -->
+                    <div class="readMore">
+                        <a href="#">Read More</a>
+                    </div> <!-- readMore Ends-->
+                </div> <!-- suzieText Ends -->
+            </div> <!-- wrapper Ends -->
+            
         </section> <!-- story Ends -->
 
         <section class="friends">
             <div class="wrapper">
-                <h2>Some of Our Friends</h2>
+                <h2>Some of Our <br> Friends</h2>
 
                 <ul>
                     <li><img src="./animal-land-assets/image-5.jpg" alt="Green Chameleon on tree"></li>
@@ -59,16 +68,18 @@
 
         <section class="midNav">
             <nav>
-                <li><i class="fa-sharp fa-solid fa-paw"></i>Animal Spotlight</li>
-                <li><i class="fa-solid fa-calendar-check"></i>Events</li>
-                <li><i class="fa-solid fa-bag-shopping"></i>Merch</li>
+                <ul>
+                    <li><i class="fa-sharp fa-solid fa-paw"></i>Animal Spotlight</li>
+                    <li><i class="fa-solid fa-calendar-check"></i>Events</li>
+                    <li><i class="fa-solid fa-bag-shopping"></i>Merch</li>
+                </ul>
             </nav>
         </section> <!-- midNav Ends -->
 
         <section class="facts">
             <div class="wrapper">
                 <div class="factsText">
-                    <h3>Fascinating Facts About Zebras</h3>
+                    <h3>Fascinating Facts <br> About Zebras</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor a elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus. Vestibulum vitae tincidunt sem, a blandit sem. Quiseque interdum orci.</p>
 
                     <div class="readMore2">
